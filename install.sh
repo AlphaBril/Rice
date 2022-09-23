@@ -1,4 +1,4 @@
-apt update && apt install -y xfonts-base xserver-xorg-input-all x11-xserver-utils xinit xserver-xorg xserver-xorg-video-all slim bspwm sxhkd rofi dunst pulseaudio pavucontrol thunar blueman psmisc hsetroot polybar python3-pip curl libcogl-pango-dev libgtkd-3-0 libgdk-pixbuf-2.0-0 ligdk3.0-cil build-essential ligtk-3-dev
+apt update && apt install -y xfonts-base xserver-xorg-input-all x11-xserver-utils xinit xserver-xorg xserver-xorg-video-all slim bspwm sxhkd rofi dunst pulseaudio pavucontrol thunar blueman psmisc hsetroot polybar python3-pip curl libcogl-pango-dev libgtkd-3-0 libgdk-pixbuf-2.0-0 libgdk3.0-cil build-essential ligtk-3-dev
 pip3 install wpgtk
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 source "$HOME/.cargo/env"
