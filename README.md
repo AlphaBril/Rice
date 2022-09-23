@@ -1,8 +1,9 @@
 # Rice
 Dotfiles for any quick reinstall
 - **Desktop Environment : None
+-- Login Manager: Slim
 - **Graphical Server : Xorg Minimal
-- **Video Driver : xf86-video-intel
+- **Video Driver : Intel
 - **Touchpad Driver : Synaptics
 - **Window Manager : Bspwm
 - **Panel : Lemonbar
