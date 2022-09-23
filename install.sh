@@ -8,3 +8,8 @@ cd eww && cargo build --release
 chmod +x target/release/eww
 mv target/release/eww /usr/bin/eww
 curl -fsSL https://raw.githubusercontent.com/spicetify/spicetify-cli/master/install.sh | sh
+cd ~
+git clone https://github.com/ikz87/dots-2.0
+cd dots-2.0
+chmod +x install.sh
+./install.sh
