@@ -1,0 +1,1 @@
+apt-get update && apt-get install xfonts-base xserver-xorg-input-all xinit xserver-xorg xserver-xorg-video-all
