@@ -10,10 +10,13 @@ mv target/release/eww /usr/bin/eww
 curl -fsSL https://raw.githubusercontent.com/spicetify/spicetify-cli/master/install.sh | sh
 cd ~
 git clone https://github.com/pijulius/picom
+cd picom
 git submodule update --init --recursive
 meson --buildtype=release . build
 ninja -C build
-# git clone https://github.com/ikz87/dots-2.0
-# cd dots-2.0
-# chmod +x install.sh
-# ./install.sh
+chmod +x build/src/picom
+mv build/src/picom /usr/bin/picom
+git clone https://github.com/ikz87/dots-2.0
+cd dots-2.0
+chmod +x install.sh
+./install.sh
